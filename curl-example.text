@@ -1,0 +1,5 @@
+curl -X POST http://localhost:3000/ollama/api/embed \
+     -H "Content-Type: application/json" \
+     -H "Authorization: Bearer <token if needed>" \
+     -d '{"model": "embeddinggemma:latest", "input": "Why is the sky blue?"}'
+

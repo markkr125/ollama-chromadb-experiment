@@ -5,5 +5,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - /mnt/data/chromadb:/data
+      - ./chroma_db:/data
     restart: unless-stopped
